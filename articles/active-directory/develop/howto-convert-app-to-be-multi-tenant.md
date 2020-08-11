@@ -22,7 +22,7 @@ ms.locfileid: "86201957"
 ---
 # <a name="how-to-sign-in-any-azure-active-directory-user-using-the-multi-tenant-application-pattern"></a>Procédure : Connecter un utilisateur Azure Active Directory à l’aide du modèle d’application multilocataire
 
-Si vous proposez une application SaaS (Software as a Service) à de nombreuses organisations, vous pouvez configurer votre application pour accepter des connexions à partir de tout client Azure Active Directory (Azure AD). Cette configuration est appelée *quand vous rendez votre application mutualisée*. Les utilisateurs de n’importe quel client Azure AD pourront se connecter à votre application après votre consentement afin d’utiliser leur compte avec votre application.
+Si vous proposez une application SaaS (Software as a Service) à de nombreuses organisations, vous pouvez configurer votre application pour accepter des connexions à partir de tout client Azure Active Directory (Azure AD). On appelle cela *rendre votre application mutualisée*. Les utilisateurs de n’importe quel client Azure AD pourront se connecter à votre application après votre consentement afin d’utiliser leur compte avec votre application.
 
 Si vous avez une application existante qui possède son propre système de compte, ou prend en charge d’autres types de connexion auprès d’autres fournisseurs cloud, l’ajout d’une connexion Azure AD à partir de tout client est simple. Inscrivez simplement votre application, ajoutez le code de connexion via OAuth2, OpenID Connect ou SAML, et placez un [bouton « Se connecter avec Microsoft »][AAD-App-Branding] dans votre application.
 
